@@ -1,0 +1,9 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" class="burger-icon" viewBox="0 0 50 32">
+    <defs>
+    <style>.hamburger__icon__fill { fill: #594e78 }</style>
+    </defs>
+    <rect id="Rectangle_1" width="100%" height="12.5%" class="hamburger__icon__fill" data-name="Rectangle 1" rx="2" transform="translate(0 0)"/>
+    <rect id="Rectangle_2" width="100%" height="12.5%" class="hamburger__icon__fill" data-name="Rectangle 2" rx="2" transform="translate(0 14)"/>
+    <rect id="Rectangle_3" width="100%" height="12.5%" class="hamburger__icon__fill" data-name="Rectangle 3" rx="2" transform="translate(0 28)"/> 
+</svg>
