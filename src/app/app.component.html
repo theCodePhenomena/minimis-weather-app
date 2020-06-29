@@ -61,8 +61,7 @@
   
   <!-- Main Content -->
 
-  <main class="main">
-    <div class="main--background" [ngClass]="{'main--background__dark': darkModeActive}"></div>
+  <main class="main" [ngClass]="{'main__dark': darkModeActive}">
     <router-outlet></router-outlet>
   </main>
 
