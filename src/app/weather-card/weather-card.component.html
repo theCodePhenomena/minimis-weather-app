@@ -1,4 +1,4 @@
-<div class="weather-card--container" [ngClass]="{'weather-card--container__dark': darkMode}">
+<div class="weather-card--container" [ngClass]="{'weather-card--container__dark': darkMode}" [routerLink]="['/details/bucharest']">
     <span class="city-name">Paris</span>
     <div class="weather" [ngSwitch]="true">
         <svg *ngSwitchCase="condition == 'Clouds'" viewBox="0 0 262 262"><defs><style>.a{fill:#ffde17;}</style></defs><circle class="a" cx="131" cy="131" r="131"/></svg>

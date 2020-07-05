@@ -10,11 +10,15 @@
     justify-content: flex-start; 
     align-items: center;   
     background-color: white;
-    border-radius: 1.75rem;
+    border-radius: 30px;
     animation: 1.25s ease-in-out 0ms 1 fadein;        
     cursor: pointer;
     transition: background-color 300ms linear;
     transition: box-shadow .2s ease-in-out;
+
+    &:focus {
+        outline: none;
+    }
 
     &__dark {
         background-color:  #00057A;
