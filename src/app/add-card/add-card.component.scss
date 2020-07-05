@@ -15,6 +15,10 @@
     color: #443282;
     transition: box-shadow .2s ease-in-out;
 
+    &:focus {
+        outline: none;
+    }
+
     &__dark {        
         background: linear-gradient(to bottom, #711B86, #00057A);
         color: white;
