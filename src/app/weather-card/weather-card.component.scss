@@ -14,10 +14,15 @@
     animation: 1.25s ease-in-out 0ms 1 fadein;        
     cursor: pointer;
     transition: background-color 300ms linear;
+    transition: box-shadow .2s ease-in-out;
 
     &__dark {
         background-color:  #00057A;
         color: white;
+    }    
+
+    &:hover {
+        box-shadow: 0 0 3rem rgba(0, 0, 255, 0.2);
     }
 
     .city-name {
