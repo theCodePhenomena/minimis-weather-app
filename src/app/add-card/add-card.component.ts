@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add-card.component.scss']
 })
 export class AddCardComponent implements OnInit {
+  darkMode = false;
 
   constructor() { }
 
