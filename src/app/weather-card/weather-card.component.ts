@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeatherCardComponent implements OnInit {
 
+  condition = 'Clouds';
+  darkMode = false;
+
   constructor() { }
 
   ngOnInit(): void {

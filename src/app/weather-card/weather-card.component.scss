@@ -1,0 +1,103 @@
+.weather-card--container {    
+    overflow: hidden;
+    padding: 2rem;
+    margin: 2rem;
+    width: 19rem;
+    height: 30rem;  
+    box-shadow: 0 0 2rem rgba(0, 0, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;   
+    background-color: white;
+    border-radius: 1.75rem;
+    animation: 1.25s ease-in-out 0ms 1 fadein;        
+    cursor: pointer;
+    transition: background-color 300ms linear;
+
+    &__dark {
+        background-color:  #00057A;
+        color: white;
+    }
+
+    .city-name {
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        letter-spacing: 0.1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .weather {
+        width: 10rem;
+        margin-bottom: 2rem;
+
+        svg {
+            width: 10rem;
+        }
+    }
+
+    .temperature {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &--value {
+            font-size: 4rem;
+            font-weight: 100;
+            letter-spacing: 0.1rem;
+        }
+
+        &--metric {
+            font-size: 3rem;
+            font-weight: 100;
+        }
+
+        &--condition {
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            text-align: center;
+        } 
+
+        &--range {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 1rem;
+
+            &__min {
+                display: flex;
+                flex-direction: column;
+
+                .type {
+                    color: #00FF9B;
+                    font-size: 1rem;
+                    text-align: center;
+                }
+
+                .value {
+                    font-size: 2rem;
+                    text-align: center;
+                }
+            }
+
+            &__max {
+                display: flex;
+                flex-direction: column;
+
+                .type {
+                    color: #FF0070;
+                    font-size: 1rem;
+                    text-align: center;
+                }
+
+                .value {
+                    font-size: 2rem;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
